@@ -1,0 +1,144 @@
+/* Colors and fonts */
+
+
+body { 
+	background-color: rgb(236 230 238 / 26%);
+	background-image:url(images/arriere_plan.jpg);
+	color: rgb(112 72 157);
+	font-size: 17px;
+}
+
+body, h2 {
+	font-family: Lucida Calligraphy, cursive;
+}
+
+p, a {
+	font-family: Arial;
+}
+
+h1 {
+	color: #2b0a61b3;
+	font-family: Lucida Calligraphy;
+	font-weight: 100;
+	letter-spacing: 0,5px;
+	font-size: 35px;
+}
+
+h2 {
+	color: rgb(112 72 157);
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+p {
+	color: rgb(50, 50, 50);
+
+}
+
+a {
+	text-decoration: none;
+	color: DCC9B6;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+
+a:link {
+	color: black;
+}
+
+img {
+width:650px;
+border:3px solid white;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px ;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px ;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px ;
+	}
+}
+
+.card-white {
+	background-color: rgb(254 251 255 / 26%);
+	background: #cecacf8a;
+	border-radius: 5px;
+	box-shadow:0 15px 25px rgb(50 50 93 / 10%);
+	padding: 2%;
+	margin: 20px 0px;
+	display: block;
+	flex-direction: column;
+	text-align: center;
+}
+
+.img-principal {
+	width: 135px;
+  	height: 135PX;
+	border-radius: 50%;
+}
+
+.img-circle {
+	width: 60px;
+  	height: 60PX;
+	border-radius: 50%
+}
+
+.btn-blue {
+	background-color: #B2A3B5;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.shadowed {
+	box-shadow: 4px 6px 10px black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #B2A3B5;
+}
+
+.list-inline i:hover{
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
+
